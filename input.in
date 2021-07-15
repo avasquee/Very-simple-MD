@@ -1,0 +1,11 @@
+!   INPUT for HW1.2
+&input
+!
+ cells = 5		    ! Cells per direction
+ sig   = 3.41d-10	! LJ sigma parameter (m)
+ epsi  = 119.8d0    ! LJ epsilon parameter (e/kb - K)
+ lat   = 5.7d-10	! Lattice constant (m)
+ temp  = 300        ! Temperature (K)
+ dt    = 0.001      ! Dimensionless dt
+ time_total = 10    ! Dimensionless total time
+/
